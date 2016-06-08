@@ -1,0 +1,64 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=0.5in, top=3cm, bottom=2cm]{geometry}
+\usepackage[spanish, activeacute]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx} %Para incluir el logo de la UBA
+\usepackage{caratula} %Para armar el cuadro de integrantes
+\usepackage{hyperref} %Para escribir urls
+\usepackage{pdfpages} %Para incluir pdf's
+\usepackage{todonotes}
+\usepackage{float}
+\usepackage[linesnumbered]{algorithm2e}
+
+
+\graphicspath{{imagenes/}}
+
+%Cosas para escribir codigo fuente
+%Fuente: http://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+\usepackage{listings}
+\usepackage{color}
+
+\setcounter{secnumdepth}{5}
+
+\begin{document}
+
+\integrante{Gasperi Jabalera, Fernando}{56/09}{fgasperijabalera@gmail.com}
+\integrante{Russo, Christian Sebasti'an}{679/10}{christian.russo8@gmail.com}
+\integrante{Tagliavini Ponce, Guido}{783/11}{guido.tag@gmail.com}
+
+\def\Materia{Paradigmas de Lenguajes de Programaci'on}
+\def\Titulo{Trabajo Pr\'{a}ctico 1}
+\def\Fecha{8 de septiembre de 2015}
+
+%----- CARATULA -----%
+
+\thispagestyle{empty}
+
+\begin{center}
+	\includegraphics[scale = 0.25]{imagenes/logo_uba.jpg}
+\end{center}
+
+\begin{center}
+	{\textbf{\large UNIVERSIDAD DE BUENOS AIRES}}\\[1.5em]
+	{\textbf{\large Departamento de Computaci\'{o}n}}\\[1.5em]
+    {\textbf{\large Facultad de Ciencias Exactas y Naturales}}\\
+    \vspace{35mm}
+    {\LARGE\textbf{\Materia}}\\[1em]    
+    \vspace{15mm}
+    {\Large \textbf{\Titulo}}\\[1em]
+    \vspace{15mm}
+    {\textbf{\Large \Fecha}}\\
+    \vspace{15mm}
+	{\textbf{\Large Grupo: foldr foldr []
+[`f`, `o`, `l`, `d`, `r`]}}\\
+    \vspace{15mm}
+    \textbf{\tablaints}
+\end{center}
+
+\newpage
+\end{document}

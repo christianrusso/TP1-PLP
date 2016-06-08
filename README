@@ -1,0 +1,4 @@
+Las funciones del TP se encuentran en el archivo Router.hs.
+
+Para ejecutar todos los tests (excepto los de la catedra), cargar el archivo Tests.hs y evaluar t.
+
